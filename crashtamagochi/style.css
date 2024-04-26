@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+#crash{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+/* comentario */
+
+.color {
+    width: 100%;
+    height: 100%;
+}
+.red {
+    background-image: url(./images/comer.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.blue {
+    background-image: url(./images/dormir.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.green {  
+    background-image: url(./images/entrenar.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.yellow {
+    background-image: url(./images/competir.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cosas1 {
+    color: white;
+    border-color: black 2px;
+    border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+.cosas2 {
+    color: white;
+    text-align: right;
+    border-color: black 2px;
+    border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 20px;
+}
+
+.cosas3 {
+    color: white;
+    border-color: black 2px;
+    border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+
+.cosas4 {
+    color: white;
+    text-align: right;
+    border-color: black 2px;
+    border: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 20px;
+}
+#audio {
+    display: none;
+}
+/*BARRAS DE PROGRESO Y LAS ID DE BOTONES*/
+
+/*Hambre*/
+.progressbar-red, .progressbar-blue{
+    width: 300px;
+    background-color: orange;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container-bar-red{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
+.progressbarhtml1{
+    position: relative;
+    top: 0;
+    width: 300px;
+    left: -20px;
+    color: black;
+    padding-left: 20px;
+}
+.progressbarhtml2{
+    
+    color: black;
+    padding-right: 20px;
+}
+.progressbarhtml3{
+    position: relative;
+    top: 0;
+    right: -24px;
+    color: black;
+    padding-right: 20px;
+}
+.progressbarhtml4{
+    position: relative;
+    top: 0;
+    right: -24px;
+    color: black;
+    padding-right: 20px;
+}
+/*SUEÑO*/
